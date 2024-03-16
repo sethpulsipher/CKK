@@ -1,0 +1,16 @@
+C:\Users\Owner\source\repos\CKK.Logic\CKK.DB\bin\Release\net6.0\CKK.DB.dll.config
+C:\Users\Owner\source\repos\CKK.Logic\CKK.DB\bin\Release\net6.0\CKK.DB.deps.json
+C:\Users\Owner\source\repos\CKK.Logic\CKK.DB\bin\Release\net6.0\CKK.DB.dll
+C:\Users\Owner\source\repos\CKK.Logic\CKK.DB\bin\Release\net6.0\CKK.DB.pdb
+C:\Users\Owner\source\repos\CKK.Logic\CKK.DB\bin\Release\net6.0\CKK.Logic.dll
+C:\Users\Owner\source\repos\CKK.Logic\CKK.DB\bin\Release\net6.0\CKK.Logic.pdb
+C:\Users\Owner\source\repos\CKK.Logic\CKK.DB\obj\Release\net6.0\CKK.DB.csproj.AssemblyReference.cache
+C:\Users\Owner\source\repos\CKK.Logic\CKK.DB\obj\Release\net6.0\CKK.DB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Owner\source\repos\CKK.Logic\CKK.DB\obj\Release\net6.0\CKK.DB.AssemblyInfoInputs.cache
+C:\Users\Owner\source\repos\CKK.Logic\CKK.DB\obj\Release\net6.0\CKK.DB.AssemblyInfo.cs
+C:\Users\Owner\source\repos\CKK.Logic\CKK.DB\obj\Release\net6.0\CKK.DB.csproj.CoreCompileInputs.cache
+C:\Users\Owner\source\repos\CKK.Logic\CKK.DB\obj\Release\net6.0\CKK.DB.csproj.CopyComplete
+C:\Users\Owner\source\repos\CKK.Logic\CKK.DB\obj\Release\net6.0\CKK.DB.dll
+C:\Users\Owner\source\repos\CKK.Logic\CKK.DB\obj\Release\net6.0\refint\CKK.DB.dll
+C:\Users\Owner\source\repos\CKK.Logic\CKK.DB\obj\Release\net6.0\CKK.DB.pdb
+C:\Users\Owner\source\repos\CKK.Logic\CKK.DB\obj\Release\net6.0\ref\CKK.DB.dll

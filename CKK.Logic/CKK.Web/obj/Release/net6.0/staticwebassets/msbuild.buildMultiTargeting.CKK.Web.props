@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\CKK.Web.props" />
+</Project>

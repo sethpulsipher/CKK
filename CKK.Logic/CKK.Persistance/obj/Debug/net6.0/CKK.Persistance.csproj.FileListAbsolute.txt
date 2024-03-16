@@ -1,0 +1,15 @@
+C:\Users\Owner\source\repos\CKK.Logic\CKK.Persistance\bin\Debug\net6.0\CKK.Persistance.deps.json
+C:\Users\Owner\source\repos\CKK.Logic\CKK.Persistance\bin\Debug\net6.0\CKK.Persistance.dll
+C:\Users\Owner\source\repos\CKK.Logic\CKK.Persistance\bin\Debug\net6.0\CKK.Persistance.pdb
+C:\Users\Owner\source\repos\CKK.Logic\CKK.Persistance\bin\Debug\net6.0\CKK.Logic.dll
+C:\Users\Owner\source\repos\CKK.Logic\CKK.Persistance\bin\Debug\net6.0\CKK.Logic.pdb
+C:\Users\Owner\source\repos\CKK.Logic\CKK.Persistance\obj\Debug\net6.0\CKK.Persistance.csproj.AssemblyReference.cache
+C:\Users\Owner\source\repos\CKK.Logic\CKK.Persistance\obj\Debug\net6.0\CKK.Persistance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Owner\source\repos\CKK.Logic\CKK.Persistance\obj\Debug\net6.0\CKK.Persistance.AssemblyInfoInputs.cache
+C:\Users\Owner\source\repos\CKK.Logic\CKK.Persistance\obj\Debug\net6.0\CKK.Persistance.AssemblyInfo.cs
+C:\Users\Owner\source\repos\CKK.Logic\CKK.Persistance\obj\Debug\net6.0\CKK.Persistance.csproj.CoreCompileInputs.cache
+C:\Users\Owner\source\repos\CKK.Logic\CKK.Persistance\obj\Debug\net6.0\CKK.Persistance.csproj.CopyComplete
+C:\Users\Owner\source\repos\CKK.Logic\CKK.Persistance\obj\Debug\net6.0\CKK.Persistance.dll
+C:\Users\Owner\source\repos\CKK.Logic\CKK.Persistance\obj\Debug\net6.0\refint\CKK.Persistance.dll
+C:\Users\Owner\source\repos\CKK.Logic\CKK.Persistance\obj\Debug\net6.0\CKK.Persistance.pdb
+C:\Users\Owner\source\repos\CKK.Logic\CKK.Persistance\obj\Debug\net6.0\ref\CKK.Persistance.dll
