@@ -1,0 +1,103 @@
+﻿<Window x:Class="CKK.UI.InventoryManagementForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CKK.UI"
+        mc:Ignorable="d"
+        Title="InventoryManagementForm" Height="420" Width="900">
+    <Grid>
+        <!-- Form Grid Definitions -->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="20"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>
+        <!-- Form Grid Definitions -->
+        
+        <!-- Labels -->
+        <Label Grid.Column="2" FontSize="25" Content="Manage Products" HorizontalAlignment="Center" Margin="0,0,0,0" Grid.Row="1" VerticalAlignment="Center"/>
+        
+        <!-- ID section -->        
+        <Label Grid.Column="1" Grid.Row="2" FontSize="18" Content="Id:" HorizontalAlignment="Right" Margin="0,0,0,5" VerticalAlignment="Center"/>
+        <TextBox x:Name="idBox" Grid.Column="2" HorizontalAlignment="Center" Grid.Row="2" FontSize="19" TextWrapping="Wrap" Padding="10,0"  BorderThickness="1.5" VerticalAlignment="Center" Width="260" Height="34"/>
+
+        <!-- Name section -->
+        <Label Grid.Column="1" Grid.Row="4" FontSize="18" Content="Name:" HorizontalAlignment="Right" Margin="0,5" VerticalAlignment="Center"/>
+        <TextBox x:Name="nameBox" Grid.Column="2" HorizontalAlignment="Center" Grid.Row="4" FontSize="19" TextWrapping="Wrap" Padding="10,0" Text="" BorderThickness="1.5" VerticalAlignment="Center" Width="260" Height="34"/>
+
+        <!-- Price section -->
+        <Label Grid.Column="1" Grid.Row="6" FontSize="18" Content="Price:" HorizontalAlignment="Right" Margin="0,5" VerticalAlignment="Center"/>
+        <TextBox x:Name="priceBox" Grid.Column="2" HorizontalAlignment="Center" Grid.Row="6" FontSize="19" TextWrapping="Wrap" Padding="10,0" Text="" BorderThickness="1.5" VerticalAlignment="Center" Width="260" Height="34"/>
+ 
+        <!-- Quantity section -->
+        <Label Grid.Column="1" Grid.Row="7" FontSize="18" Content="Quantity:" HorizontalAlignment="Right" Margin="0,5" VerticalAlignment="Center"/>
+        <TextBox x:Name="quantityBox" Grid.Column="2" HorizontalAlignment="Center" Grid.Row="7" FontSize="19" TextWrapping="Wrap" Padding="10,0" BorderThickness="1.5" VerticalAlignment="Center" Width="260" Height="34"/>
+        
+        <!-- Labels -->
+
+        <!-- Buttons -->
+        <Button x:Name="searchButton" Grid.Column="2" FontSize="12" BorderThickness="1" Content="ID Search" HorizontalAlignment="Right" Grid.Row="3" VerticalAlignment="Center" Height="20" Width="70" Margin="0,5" Click="searchButton_Click"/>
+        <Button x:Name="resetTextButton" Grid.Column="2" FontSize="12" BorderThickness="1" Content="Reset Fields" HorizontalAlignment="Left" Grid.Row="8" VerticalAlignment="Center" Height="20" Width="80" Margin="0,5" Click="resetTextButton_Click" />
+        <Button x:Name="nameSearchButton" Grid.Column="2" FontSize="12" BorderThickness="1" Content="Name Search" HorizontalAlignment="Right" Grid.Row="5" VerticalAlignment="Center" Height="20" Width="80" Margin="0,5" Click="nameSearchButton_Click"/>
+        <Button x:Name="deleteButton" Grid.Column="2" FontSize="12" BorderThickness="1" Content="Delete" HorizontalAlignment="Right" Grid.Row="3" VerticalAlignment="Center" Height="20" Width="60" Margin="5,0,85,0" Click="deleteButton_Click"/>
+        <!-- Bottom Row Buttons -->
+        <Button x:Name="addButton" Grid.Column="2" FontSize="12" Margin="0,5" BorderThickness="1" Content="Add" HorizontalAlignment="Left" Grid.Row="9" VerticalAlignment="Center" Height="25" Width="75" Click="addButton_Click"/>
+        <Button x:Name="updateButton" Grid.Column="2" FontSize="12" Margin="0,5" BorderThickness="1" Content="Update" HorizontalAlignment="Center" Grid.Row="9" VerticalAlignment="Center" Height="25" Width="75" Click="updateButton_Click"/>
+        <Button x:Name="openButton" Grid.Column="2" FontSize="12" Margin="0,5" BorderThickness="1" Content="Load All" HorizontalAlignment="Right" Grid.Row="9" VerticalAlignment="Center" Height="25" Width="75" Click="openButton_Click"/>
+        <!-- Buttons -->
+
+        <!-- DataGrid / Table -->
+        <DataGrid x:Name="outputBox" Grid.Column="3" Grid.Row="2" Grid.RowSpan="9" Margin="5,0,0,5" BorderThickness="2" FontSize="14" Background="White">
+
+            <!-- Font Color / Style of Column Headings-->
+            <DataGrid.Resources>
+                <Style TargetType="{x:Type DataGridColumnHeader}">
+                    <Setter Property="Background" Value="AliceBlue"/>
+                    <Setter Property="FontWeight" Value="SemiBold"/>
+                    <Setter Property="BorderThickness" Value="0,0,1,2"/>
+                    <Setter Property="BorderBrush" Value="Black"/>
+                </Style>
+            </DataGrid.Resources>
+            <!-- Font Color / Style of Column Headings-->
+
+            <!-- Column Header Text & Bindings -->
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Binding="{Binding Id}" Width="120"/>
+                <DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="120"/>
+                <DataGridTextColumn Header="Quantity" Binding="{Binding Quantity}" Width="120"/>
+                <DataGridTextColumn Header="Price" Binding="{Binding Price}" Width="*"/>
+            </DataGrid.Columns>
+            <!-- Column Header Text & Bindings -->
+        </DataGrid>
+        <!-- DataGrid / Table -->
+
+        <!-- Sort By -->
+        <CheckBox x:Name="descCheckBox" Grid.Row="1" Grid.Column="3" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,0,5,5" Content="Desc" Checked="descCheckBox_Checked" IsEnabled="False" Unchecked="descCheckBox_Unchecked"></CheckBox>
+        <ComboBox x:Name="sortBy" Grid.Column="3" HorizontalAlignment="Right" Margin="0,0,5,0" Grid.Row="1" VerticalAlignment="Top" Width="120" IsEnabled="False" SelectionChanged="sortBy_SelectionChanged">
+            <ComboBoxItem></ComboBoxItem>
+            <ComboBoxItem>Id</ComboBoxItem>
+            <ComboBoxItem>Name</ComboBoxItem>
+            <ComboBoxItem>Quantity</ComboBoxItem>
+            <ComboBoxItem>Price</ComboBoxItem>
+        </ComboBox>
+        <!-- Sort By -->
+
+    </Grid>
+</Window>
