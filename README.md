@@ -11,7 +11,10 @@
 - [Contact](#contact)
 
 ## Project Overview
-Brief description of the project. Explain the purpose and goals of the project, as well as what it aims to solve.
+Coreys Knick Knacks (CKK) is a ficticious shop that was used as a capstone project to learn C# / dotnet. 
+This project includes TWO types of applications:
+- Inventory Management Software built to run on a Windows Machine.
+- Blazor Web App as a consumer/client facing product.
 
 ## Features
 - CKK is an all out entreprise-grade software set for running Coreys Business.
@@ -24,6 +27,9 @@ Brief description of the project. Explain the purpose and goals of the project, 
 - Blazor
 - XAML
 - WPF
+- Repository Pattern
+- Dapper
+- MS SQL Server
 
 ## Installation
 ### Prerequisites
