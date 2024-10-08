@@ -14,16 +14,16 @@
 Brief description of the project. Explain the purpose and goals of the project, as well as what it aims to solve.
 
 ## Features
-- List the main features of the project.
-- Feature 1
+- CKK is an all out entreprise-grade software set for running Coreys Business.
+- Inventory management tool for windows machines.
 - Feature 2
 - Feature 3
 
 ## Technologies Used
-- Language/Framework 1
-- Language/Framework 2
-- Tool 1
-- Tool 2
+- C#
+- Blazor
+- XAML
+- WPF
 
 ## Installation
 ### Prerequisites
