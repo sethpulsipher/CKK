@@ -53,3 +53,27 @@ Provide a step-by-step guide on how to use the project. Include examples or scre
 ```bash
 # Example command
 npm run example-command
+```
+## Contributing
+1. Fork the repository.
+2. Create a new branch:
+    ```bash
+    git checkout -b feature-branch
+    ```
+3. Make your changes and commit them:
+    ```bash
+    git commit -m "Add new feature"
+    ```
+4. Push to the branch:
+    ```bash
+    git push origin feature-branch
+    ```
+5. Submit a pull request.
+
+## License
+This project is licensed under the [MIT License](LICENSE).
+
+## Contact
+- Email: your.email@example.com
+- GitHub: [your-username](https://github.com/your-username)
+
