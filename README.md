@@ -24,13 +24,13 @@ This project includes TWO types of applications:
 - Feature 3
 
 ## Technologies Used
-    - C#
-    - Blazor
-    - XAML
-    - WPF
-    - Repository Pattern
-    - Dapper
-    - MS SQL Server
+- C#
+- Blazor
+- XAML
+- WPF
+- Repository Pattern
+- Dapper
+- MS SQL Server
 
 ## Project Structure
 
