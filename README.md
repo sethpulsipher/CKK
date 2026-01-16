@@ -12,10 +12,10 @@
 - [Contact](#contact)
 
 ## Project Overview
-Coreys Knick Knacks (CKK) is a ficticious shop that was used as a capstone project to learn C# / dotnet. 
+Coreys Knick Knacks (CKK) is a fictitious shop that was used as a capstone project to learn C# / dotnet. 
 This project includes TWO types of applications:
-- Inventory Management Software built to run on a Windows Machine.
-- Blazor Web App as a consumer/client facing product.
+    - Inventory Management Software built to run on a Windows Machine.
+    - Blazor Web App as a consumer/client facing product.
 
 ## Features
 - CKK is an all out entreprise-grade software set for running Coreys Business.
@@ -24,13 +24,13 @@ This project includes TWO types of applications:
 - Feature 3
 
 ## Technologies Used
-- C#
-- Blazor
-- XAML
-- WPF
-- Repository Pattern
-- Dapper
-- MS SQL Server
+    - C#
+    - Blazor
+    - XAML
+    - WPF
+    - Repository Pattern
+    - Dapper
+    - MS SQL Server
 
 ## Project Structure
 
@@ -64,13 +64,17 @@ Static
     ```bash
     cd your-repository
     ```
-3. Install dependencies:
+3. Restore dependencies:
     ```bash
-    npm install
+    dotnet restore
     ```
-4. Run the project:
+4. Update database (if applicable):
     ```bash
-    npm start
+    dotnet ef database update
+    ```  
+6. Run the project:
+    ```bash
+    dotnet run
     ```
 
 ## Usage
